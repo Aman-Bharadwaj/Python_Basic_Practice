@@ -1,11 +1,25 @@
-input = int(input("Enter a number: "))
-if input % 3 == 0 and input % 5 == 0:
-    print("Fizzbuzz")
-elif input % 3 == 0:
+num = int(input("Enter number: "))
+
+if num % 3 == 0 and num % 5 == 0 and num % 7 == 0:
+    print("FizzBuzzBoom")
+
+elif num % 3 == 0 and num % 5 == 0:
+    print("FizzBuzz")
+
+elif num % 3 == 0 and num % 7 == 0:
+    print("FizzBoom")
+
+elif num % 5 == 0 and num % 7 == 0:
+    print("BuzzBoom")
+
+elif num % 3 == 0:
     print("Fizz")
-elif input % 5 == 0:
-    print("Buzz") 
-elif input % 7 == 0:
+
+elif num % 5 == 0:
+    print("Buzz")
+
+elif num % 7 == 0:
     print("Boom")
+
 else:
-    print(input)   
+    print(num)
