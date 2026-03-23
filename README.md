@@ -37,12 +37,32 @@ Documenting my daily progress while learning Python from scratch.
 
 ---
 
+## 📅 Day 3: Loops
+
+### Topics Covered:
+
+* for loop
+* while loop
+* range() function
+* Loop control (basic iteration logic)
+
+### Practice:
+
+* Print numbers from 1 to 10 (using both loops)
+* Sum of numbers from 1 to n
+* Multiplication table generator
+* Count even numbers in a range
+* Pattern printing (triangle star pattern)
+
+---
+
 ## 🎯 Goal
 
 Build strong logic and consistency before moving to advanced topics.
+Focus on understanding problem-solving, not memorizing code.
 
 ---
 
 ## 🚀 Next
 
-* Day 3: Loops (for, while)
+* Day 4: Functions (def, parameters, return)
