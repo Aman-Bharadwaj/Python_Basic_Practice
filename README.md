@@ -1,6 +1,6 @@
 # 🐍 Python Basics Journey
 
-Documenting my daily progress while learning Python from scratch.
+Documenting my daily progress while learning Python from scratch
 
 ---
 
