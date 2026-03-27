@@ -118,13 +118,41 @@ Documenting my daily progress while learning Python from scratch
 
 ---
 
+## 📅 Day 7: Strings (Basics + Problem Solving)
+
+### Topics Covered:
+
+* String indexing & slicing
+* Iterating through strings using loops
+* String immutability
+* ASCII conversion using `ord()` and `chr()`
+* Conditional logic on characters
+
+### Practice:
+
+* Reverse a string (using loop)
+* Count vowels in a string
+* Remove spaces from a string
+* Convert lowercase to uppercase (without `.upper()`)
+* Palindrome checker (manual logic)
+* Character frequency using nested loops (without `.count()`)
+
+### Key Learnings:
+
+* Importance of correct conditions in logic
+* Avoiding variable overwrite in nested loops
+* Difference between character and full string comparison
+* Debugging small mistakes that break entire logic
+
+---
+
 ## 🎯 Goal
 
-Build strong logic and consistency before moving to advanced topics.
+Build strong logic and consistency before moving to advanced topics.  
 Focus on understanding problem-solving, not memorizing code.
 
 ---
 
 ## 🚀 Next
 
-* Day 7: Strings + Pattern Problems + Mini Challenges
+* Day 7 (continued): Pattern Problems + Mini Challenges
