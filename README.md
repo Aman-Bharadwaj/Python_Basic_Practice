@@ -118,7 +118,7 @@ Documenting my daily progress while learning Python from scratch
 
 ---
 
-## 📅 Day 7: Strings (Basics + Problem Solving)
+## 📅 Day 7: Strings + Patterns + Mini Challenges
 
 ### Topics Covered:
 
@@ -127,6 +127,8 @@ Documenting my daily progress while learning Python from scratch
 * String immutability
 * ASCII conversion using `ord()` and `chr()`
 * Conditional logic on characters
+* Pattern printing using nested loops
+* Understanding rows and columns logic
 
 ### Practice:
 
@@ -136,13 +138,25 @@ Documenting my daily progress while learning Python from scratch
 * Convert lowercase to uppercase (without `.upper()`)
 * Palindrome checker (manual logic)
 * Character frequency using nested loops (without `.count()`)
+* Star and number pattern problems
+* Right-aligned pattern logic
+
+### Mini Challenges:
+
+* Anagram check (without sorting)
+* Most frequent character (manual counting)
+* Replace vowels with `*`
+* Word count (handling multiple spaces)
+* Reverse words in a sentence (without shortcuts)
 
 ### Key Learnings:
 
 * Importance of correct conditions in logic
 * Avoiding variable overwrite in nested loops
 * Difference between character and full string comparison
-* Debugging small mistakes that break entire logic
+* Debugging output vs logic issues
+* Thinking in terms of rows and columns for patterns
+* Handling edge cases in strings (multiple spaces, empty values)
 
 ---
 
@@ -155,4 +169,4 @@ Focus on understanding problem-solving, not memorizing code.
 
 ## 🚀 Next
 
-* Day 7 (continued): Pattern Problems + Mini Challenges
+* Day 8: Dictionaries + Advanced Problem Solving
