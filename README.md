@@ -1,6 +1,6 @@
 # 🐍 Python Basics Journey
 
-Documenting my daily progress while learning Python from scratch
+Documenting my daily progress while learning Python from scratch.
 
 ---
 
@@ -44,7 +44,7 @@ Documenting my daily progress while learning Python from scratch
 * for loop
 * while loop
 * range() function
-* Loop control (basic iteration logic)
+* Loop control and iteration logic
 
 ### Practice:
 
@@ -84,7 +84,7 @@ Documenting my daily progress while learning Python from scratch
 * Modifying elements
 * List methods (`append`, `insert`, `remove`, `pop`)
 * Looping through lists
-* Basic filtering using conditions
+* Conditional filtering
 
 ### Practice:
 
@@ -127,8 +127,8 @@ Documenting my daily progress while learning Python from scratch
 * String immutability
 * ASCII conversion using `ord()` and `chr()`
 * Conditional logic on characters
-* Pattern printing using nested loops
-* Understanding rows and columns logic
+* Nested loops for patterns
+* Row and column logic
 
 ### Practice:
 
@@ -151,22 +151,51 @@ Documenting my daily progress while learning Python from scratch
 
 ### Key Learnings:
 
-* Importance of correct conditions in logic
-* Avoiding variable overwrite in nested loops
-* Difference between character and full string comparison
-* Debugging output vs logic issues
-* Thinking in terms of rows and columns for patterns
-* Handling edge cases in strings (multiple spaces, empty values)
+* Precision in conditions is critical
+* Avoid variable overwrite in nested loops
+* Character vs string comparison matters
+* Debugging logic > debugging syntax
+* Pattern problems improve structural thinking
+* Edge cases (empty input, multiple spaces) matter
+
+---
+
+## 📅 Day 8: Dictionaries + Advanced Problem Solving
+
+### Topics Covered:
+
+* Dictionaries (key-value pairs)
+* Accessing, updating, and deleting data
+* Looping through dictionaries (`items()`)
+* Dictionary methods (`keys()`, `values()`, `items()`)
+* Safe access using `.get()`
+* Frequency counting pattern
+
+### Practice:
+
+* Word frequency counter (case-insensitive)
+* Second highest marks finder
+* Vowel frequency counter
+* Phonebook CLI (add + search functionality)
+
+### Key Learnings:
+
+* Dictionaries are core for real-world data handling
+* `.get()` simplifies logic and prevents errors
+* Frequency counting is a fundamental pattern
+* Problem solving is about recognizing patterns, not memorizing code
+* Small CLI programs simulate real backend thinking
 
 ---
 
 ## 🎯 Goal
 
-Build strong logic and consistency before moving to advanced topics.  
-Focus on understanding problem-solving, not memorizing code.
+Build strong logic and consistency before moving to advanced topics.
+Focus on problem-solving ability, not just syntax.
 
 ---
 
 ## 🚀 Next
 
-* Day 8: Dictionaries + Advanced Problem Solving
+* Mini Project (Expense Tracker / Student Management System)
+* Start applying concepts in real-world scenarios
