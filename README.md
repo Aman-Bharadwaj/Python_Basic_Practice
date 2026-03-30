@@ -188,14 +188,46 @@ Documenting my daily progress while learning Python from scratch.
 
 ---
 
+## 📅 Day 9: Mini Project - Student Management System
+
+### Features Implemented:
+
+* Add student (name, roll number, marks)
+* View all students with average marks
+* Search student by roll number
+* Find topper based on average marks
+
+### Concepts Used:
+
+* Lists + Nested Dictionaries
+* Functions (modular code structure)
+* Loops & Conditional Logic
+* Basic Data Validation (duplicate roll check)
+
+### Key Learnings:
+
+* Structuring real-world data using nested dictionaries
+* Breaking problems into smaller functions
+* Importance of clean and readable output
+* Handling edge cases (empty data, duplicate entries)
+* Transition from practice problems → real application logic
+
+---
+
 ## 🎯 Goal
 
-Build strong logic and consistency before moving to advanced topics.
+Build strong logic and consistency before moving to advanced topics.  
 Focus on problem-solving ability, not just syntax.
 
 ---
 
 ## 🚀 Next
 
-* Mini Project (Expense Tracker / Student Management System)
-* Start applying concepts in real-world scenarios
+* Improve Mini Project:
+  - Update/Delete student
+  - Store data using JSON
+  - Better CLI formatting
+
+* Start learning:
+  - File Handling
+  - OOP (Object-Oriented Programming)
