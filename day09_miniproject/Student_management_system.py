@@ -61,13 +61,33 @@ def find_topper():
             
     print(f"Topper: {topper['name']} with avg {highest:.2f}")
     
+def update_student():
+    roll = int(input("Enter roll number to update: "))
+    
+    for s in students:
+        if s["roll"] == roll:
+            subject = input("Enter subject to update: ").lower()
+            
+            if subject in s["marks"]:
+                new_marks = int(input("Enter new marks: "))
+                s["marks"][subject] = new_marks
+                print("Marks updated successfully!")
+                
+            else:
+                print("Subject not found!")
+                
+            return
+        
+    print("Student not found!")
+
+    
 while True:
     print("\n1. Add Student")
     print("2. View Student")
     print("3. Search Student")
     print("4. Find Topper")
     print("5. Exit")
-    
+    print("6. Update Student")
     choice = input("Enter choice: ")
     
     if choice == "1":
@@ -79,6 +99,9 @@ while True:
     elif choice == "4":
         find_topper()
     elif choice == "5":
+        break
+    elif choice == "6":
+        update_student()
         break
     else:
         print("Invalid choice.")
