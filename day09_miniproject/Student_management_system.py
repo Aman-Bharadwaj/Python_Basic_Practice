@@ -79,6 +79,17 @@ def update_student():
             return
         
     print("Student not found!")
+    
+def delete_student():
+    roll = int(input("Enter roll number to delete: "))
+    
+    for s in students:
+        if s["roll"] == roll:
+            students.remove(s)
+            print("Student deleted successfully!")
+            return
+    
+    print("Student not found!")
 
     
 while True:
@@ -86,8 +97,9 @@ while True:
     print("2. View Student")
     print("3. Search Student")
     print("4. Find Topper")
-    print("5. Exit")
+    print("5. Delete student")
     print("6. Update Student")
+    print("7. Exit")
     choice = input("Enter choice: ")
     
     if choice == "1":
@@ -99,9 +111,10 @@ while True:
     elif choice == "4":
         find_topper()
     elif choice == "5":
-        break
+        delete_student()
     elif choice == "6":
         update_student()
+    elif choice == "7":
         break
     else:
         print("Invalid choice.")

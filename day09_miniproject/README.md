@@ -5,6 +5,9 @@
 - View students
 - Search by roll number
 - Find topper
+- Update student
+- Delete student
+- Exit
 
 ## 🧠 Concepts Used
 - Lists
