@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Vansh",
+        "roll": 21,
+        "marks": {
+            "math": 98,
+            "science": 97,
+            "english": 99
+        }
+    },
+    {
+        "name": "Kamini",
+        "roll": 10,
+        "marks": {
+            "math": 98,
+            "science": 95,
+            "english": 92
+        }
+    },
+    {
+        "name": "Karan",
+        "roll": 17,
+        "marks": {
+            "math": 56,
+            "science": 37,
+            "english": 63
+        }
+    }
+]
