@@ -1,4 +1,4 @@
-text =  "Apple banana apple Mango banana Apple"
+text =  "Apple banana apple Mango banana mango Apple"
 
 words = text.lower().split()
 count = {}

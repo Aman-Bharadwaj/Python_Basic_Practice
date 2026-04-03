@@ -2,7 +2,7 @@
 marks = {
     "Aman": 85,
     "Rahul": 72,
-    "Sara": 90,
+    "Vansh": 90,
     "John": 88 
 }
 
@@ -20,7 +20,7 @@ print("Topper:", topper)
 marks = {
     "Aman": 85,
     "Rahul": 72,
-    "Sara": 90,
+    "Vansh": 90,
     "John": 88 
 }
 
